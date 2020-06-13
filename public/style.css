@@ -1,0 +1,90 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: aliceblue;
+    font-family: cursive;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    margin: 0px;
+    
+}
+
+
+
+div#change_username {
+   
+    display: inline-block;
+    height: 3%;
+    text-align: center;
+    padding-left: 40rem;
+    padding-top: 2rem;
+}
+
+section#chatroom {
+   
+    height: 85%;
+    overflow: auto;
+    background-image: url(1.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 5rem;
+}
+
+section#input_zone {
+    height: 7%;
+    text-align: center;
+    
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input#username {
+    font-family: cursive;
+}
+
+input#message {
+    display: inline-block;
+    width: 88%;
+    height: 70%;
+    font-family: cursive;
+    font-size: 2vh;
+}
+
+button#send_message {
+    display: inline-block;
+    height: 70%;
+    width: 10%;
+}
+
+p.message {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: cursive;
+    padding: 1vh;
+    
+}
+
